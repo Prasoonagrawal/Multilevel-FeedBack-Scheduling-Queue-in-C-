@@ -1,16 +1,16 @@
 # Multilevel-FeedBack-Scheduling-Queue
-===========================================================
-  Simulating Multilevel-FeedBack-Scheduling-Queue-in-C++-
-===========================================================
+===========================================================  
+  Simulating Multilevel-FeedBack-Scheduling-Queue-in-C++  
+===========================================================  
 
 This application implements Multilevel Feedback Queue in C++ with two levels:
 Level 1 : Fixed priority preemptive Scheduling
-Level 2 : Round Robin Scheduling
+Level 2 : Round Robin Scheduling  
 
 
-===========================================================
-                    SYSTEM DETAILS
-===========================================================
+===========================================================  
+                    SYSTEM DETAILS  
+===========================================================  
 
 1. Fixed priority preemptive Scheduling (Queue 1)
  * Priority 0 is highest priority.
@@ -30,21 +30,21 @@ Suppose Queue 1 is empty and currently process from Queue 2 is being executed. N
 process should be scheduled as Queue 1 has higher priority than Queue 2. Again after Queue 1 becomes empty Queue 2 will resume execution.
 
 
-===========================================================
-                      INPUT FORMAT
-===========================================================
-<pid> <arrival_time> <burst_time> <priority>
+===========================================================  
+                      INPUT FORMAT  
+===========================================================  
+<pid> <arrival_time> <burst_time> <priority>  
 
-===========================================================
-                      OUTPUT FORMAT
-===========================================================
+===========================================================  
+                      OUTPUT FORMAT  
+===========================================================  
 
-<pid Response_Time Finish_Time Waiting_Time >
+<pid Response_Time Finish_Time Waiting_Time >  
 
 
-===========================================================
-                      Sample Input :
-===========================================================
+===========================================================  
+                      Sample Input :  
+===========================================================  
 5  
 1 0 14 2  
 2 7 8 1  
