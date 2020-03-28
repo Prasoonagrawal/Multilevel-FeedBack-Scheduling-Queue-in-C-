@@ -32,13 +32,14 @@ process should be scheduled as Queue 1 has higher priority than Queue 2. Again a
 
 ===========================================================  
                       INPUT FORMAT  
-===========================================================    
+=============================================  
 <pid> <arrival_time> <burst_time> <priority>     
 
 ===========================================================  
                       OUTPUT FORMAT  
-===========================================================    
-<pid Response_Time Finish_Time Waiting_Time >    
+============================================ 
+
+<pid Response_Time Finish_Time Waiting_Time >
   
  ===========================================================  
                       Sample Input :  
