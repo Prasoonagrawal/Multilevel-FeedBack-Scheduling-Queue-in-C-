@@ -206,7 +206,7 @@ int main()
 				rq_process = 0;
 				pq_process = 0;
 			}
-			else if(quantum == 0 ) //If time Qunatum of a current running process Finish
+			else if(quantum == 0 ) //If time Qunatum of a current running process finish
 			{
 				rq.push(current);
 				current.Pid = -2;
